@@ -49,16 +49,7 @@ specific, realistic environment.
 
 A few pieces of this project best demonstrate the skills I'm building:
 
-- **[Vendor/Third-Party Risk Policy](/06-policies/06.4-vendor-management.md)** —
-  Meridian's crown-jewel system (core banking) is hosted by a third party. This
-  policy addresses how a bank this size actually controls risk it can't patch.
-- **[Broken Access Control: Impact on Meridian](/07-threat-landscape/appsec/01-broken-access-control)** —
-  how one OWASP vulnerability class plays out against a real architecture, not
-  in the abstract.
-- **[Controls Gap Analysis](/08-gap-analysis/README.md)** — the capstone:
-  where Meridian's policies leave it exposed to the threats profiled here.
 
-*(Update these links to whichever chapters you finish first.)*
 
 ---
 
