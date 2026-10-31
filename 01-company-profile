@@ -1,1 +1,77 @@
+# Chapter 01 — Company Profile
 
+## Meridian Community Bank at a Glance
+
+| | |
+|---|---|
+| **Founded** | 1998 |
+| **HQ** | Charlotte, NC (Myers Park branch + administrative offices) |
+| **Second location** | Manhattan, NY (financial district retail branch) |
+| **Employees** | 118 |
+| **Total assets** | ~$480 million |
+| **Charter** | North Carolina state-chartered, FDIC insured |
+| **Regulator** | NC Office of the Commissioner of Banks + FDIC; NY DFS 
+  (via NY branch) |
+
+Meridian is a community bank in the classic mold: locally focused, 
+relationship-driven lending, and retail deposits. It was founded to serve 
+small businesses and homeowners in the Charlotte area. The Manhattan branch 
+was opened in 2018 to serve commercial clients and transplants with North 
+Carolina ties, and it brought Meridian under NY DFS jurisdiction — a 
+compliance wrinkle the bank is still adapting to.
+
+---
+
+## Business Lines
+
+| Business line | Staff | Systems they live in | Notes |
+|---|---|---|---|
+| **Retail banking** | 34 | Core banking (Fiserv), online banking | Teller staff, personal bankers, branch ops |
+| **Consumer lending / mortgages** | 22 | Core banking, loan origination SaaS | Heavy document handling (SSNs, income docs, appraisals) |
+| **Small business / commercial banking** | 12 | Core banking, treasury mgmt | Includes wire transfers — high fraud target |
+| **Wealth management** | 6 | Portfolio mgmt SaaS, M365 | Fiduciary accounts; older, high-net-worth clientele (prime BEC target) |
+| **Operations & back office** | 18 | Core banking, imaging SaaS | Loan processing, wire room, deposit ops |
+| **IT / InfoSec** | 6 | Everything | See below |
+| **Executive, HR, Finance, Marketing, Compliance** | 13 | M365, ERPs, SaaS | Corporate functions |
+| **Facilities / other** | 7 | badge systems, BMS | Physical security overlap |
+
+---
+
+## Organizational Structure
+
+```mermaid
+graph TD
+    CEO["CEO — Ruth Callahan"] --> CFO["CFO — Marcus Webb"]
+    CEO --> COO["COO — Denise Alvarez"]
+    CEO --> CRO["Chief Risk Officer — Priya Shah"]
+    CEO --> CISO["CISO — (reports to CIO, dotted line to CRO)"]
+    COO --> RET["Retail Banking (34)"]
+    COO --> LEN["Consumer Lending (22)"]
+    COO --> BIZ["Small Business Banking (12)"]
+    COO --> OPS["Operations (18)"]
+    CFO --> WLT["Wealth Management (6)"]
+    CFO --> FIN["Finance & HR (9)"]
+    CRO --> COMP["Compliance Officer (2)"]
+    CISO --> ITSEC["IT/InfoSec (5)"]
+    CEO --> NYC["Manhattan Branch (20)"]
+
+
+---
+
+## Why I made these choices, and what you should change
+
+**Level of detail:** This is roughly the right depth. It's specific enough to act as a foundation for every future chapter, but it's people-and-constraints focused rather than exhaustive. Notice what I *didn't* include — no full asset lists (that's Chapter 02), no data classification (Chapter 03), no compliance detail (Chapter 04). Each chapter should answer one question well; the profile answers "who is this organization and what are its constraints?"
+
+**The "Security-Relevant Facts" section is the most important part.** Every constraint listed there should get echoed later — e.g., tiny security team shows up in your risk assessment and gap analysis as justification for control choices. This is what makes the project feel like real-world risk reasoning rather than academic exercises.
+
+**Named personnel with personalities are your friend.** "Okafor functions as de facto CISO" gives every later policy a real author and every incident case study real characters. Feel free to rename everyone — make the names your own. Actually, **you should rename all of them** — these are just my inventions, and it'll feel more authentically yours.
+
+**Things to personalize or verify:**
+1. **Rename Cetara... I mean**, rename the bank if you want — "Meridian" is just a suggestion; make sure it's not a real bank in those markets (watch out: there are banks with "Meridian" in their name in the mid-Atlantic — a quick search of the FDIC BankFind tool will tell you if you care; being fictional-but-named-after-a-real-bank is awkward)
+2. Adjust the Fiserv choice if you prefer Jack Henry or Fis — all plausible for this size bank
+3. The NY DFS "CISO designation" detail is real regulation applied realistically — verify it when you write Chapter 04 so your story stays consistent
+4. Fix the mermaid code block — GitHub renders `mermaid` fenced blocks natively, so this org chart and your future network diagrams will just work
+
+**One honest caution:** don't let this read as AI-written in its final form. Use this as your scaffold — reword sections into your own voice as you go through it. The *thinking* (constraints, structure, trade-offs) is the value; the sentences should sound like you wrote them, because in interviews you'll be asked about this company in detail.
+
+Next step would be **Chapter 02 — Network Architecture**, since the asset inventory tables there are what your OWASP write-ups will point to. Want me to draft that one too?
