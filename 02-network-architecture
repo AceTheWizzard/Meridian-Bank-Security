@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% ===== External / WAN =====
     Internet[Public Internet]
@@ -66,6 +67,7 @@ graph TD
     HQ_FW -- "Dedicated Secure Circuit" --> Fiserv
     HQ_FW -- "TLS" --> LoanSaaS
     NY_FW -- "Local Internet Breakout / TLS" --> M365
+```
 
 ### Design Decisions & Constraints
 
