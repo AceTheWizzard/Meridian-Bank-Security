@@ -1,3 +1,7 @@
+```mermaid
+graph TD
+    A[Client] --> B[Server]
+
 graph TD
     %% ===== External / WAN =====
     Internet[Public Internet]
