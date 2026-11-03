@@ -54,7 +54,7 @@ graph TD
     CRO --> COMP["Compliance Officer (2)"]
     CISO --> ITSEC["IT/InfoSec (5)"]
     CEO --> NYC["Manhattan Branch (20)"]
-
+```
 
 ---
 
