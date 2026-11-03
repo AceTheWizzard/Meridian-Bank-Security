@@ -72,5 +72,4 @@ graph TD
 3. The NY DFS "CISO designation" detail is real regulation applied realistically — verify it when you write Chapter 04 so your story stays consistent
 4. Fix the mermaid code block — GitHub renders `mermaid` fenced blocks natively, so this org chart and your future network diagrams will just work
 
-**One honest caution:** don't let this read as AI-written in its final form. Use this as your scaffold — reword sections into your own voice as you go through it. The *thinking* (constraints, structure, trade-offs) is the value; the sentences should sound like you wrote them, because in interviews you'll be asked about this company in detail.
 
