@@ -31,15 +31,15 @@ specific, realistic environment.
 
 | Chapter | Contents | Status |
 |---------|----------|--------|
-| [01 — Company Profile](/01-company-profile) | Org chart, business lines, IT staffing | ✅ |
+| [01 — Company Profile](/01-company-profile.md) | Org chart, business lines, IT staffing | ✅ |
 | [02 — Network Architecture](/02-network-architecture.md) | Topology, asset inventory, data flows | ✅ |
-| [03 — Data Inventory](/03-data-inventory) | Crown jewels, classification, access | ✅ |
-| [04 — Regulatory Landscape](/04-regulatory-landscape) | GLBA, FFIEC, PCI DSS, NY DFS 500 | 🚧 |
-| [05 — Risk Assessment](/05-risk-assessment) | Methodology + risk register | 🚧 |
-| [06 — Policies](/06-policies) | Access control, IR, vendor mgmt, & more | 🚧 |
-| [07 — Threat Landscape](/07-threat-landscape) | OWASP analysis + adversary profiles | 🚧 |
-| [08 — Controls Gap Analysis](/08-gap-analysis) | Mapping threats to controls, finding gaps | 🚧 |
-| [09 — Incident Case Studies](/09-incident-case-studies) | Simulated attacks, after-action reports | ⏳ planned |
+| [03 — Data Inventory](/03-data-inventory.md) | Crown jewels, classification, access | ✅ |
+| [04 — Regulatory Landscape](/04-regulatory-landscape.md) | GLBA, FFIEC, PCI DSS, NY DFS 500 | 🚧 |
+| [05 — Risk Assessment](/05-risk-assessment.md) | Methodology + risk register | 🚧 |
+| [06 — Policies](/06-policies.md) | Access control, IR, vendor mgmt, & more | 🚧 |
+| [07 — Threat Landscape](/07-threat-landscape.md) | OWASP analysis + adversary profiles | 🚧 |
+| [08 — Controls Gap Analysis](/08-gap-analysis.md) | Mapping threats to controls, finding gaps | 🚧 |
+| [09 — Incident Case Studies](/09-incident-case-studies.md) | Simulated attacks, after-action reports | ⏳ planned |
 
 **Legend:** ✅ complete · 🚧 in progress · ⏳ planned
 
